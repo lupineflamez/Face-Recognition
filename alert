@@ -1,0 +1,40 @@
+import cv2
+import os
+import datetime import datetime
+
+def handle_detection( frame, top, right, bottom, left, name):
+    """
+    determins if a face is an intruder or an authorised user.
+    Draws the correct colored bounding Box and returns the status.
+    """
+    if name.lower() == "unknown":
+        color = ( 0, 0, 255) #thick Red box for Intruders
+        label = "INTRUDER FOUND!!"
+        is_intruder = True
+    else
+        color = (0, 255, 0)# Green Box for Non intruders or Authorised User
+        label = name
+        is_intruder = False
+        
+    #Draw the rectangle Around the Face
+    cv2.rectangle (frame, (left, top), (right, botton), color, 2)
+    
+    #place the text lable above the Rectangle
+    y = top - 15  if top - 15 > 15 else top + 15
+    cv2.putText(frame, label, (left, y), cv2.FONT_HERSHET_SIMPLEX, 0.75, color, 2)
+    
+    #save a snapShot if  its an intruder
+    if is_intruder:
+        save_intruder_snapshot(frame)
+        
+    return is_intruder
+def save_intruder_snapshot(frame):
+    """ saves a timeStamped image of the intruder to an alert folder. """
+    folder = "intruder_alert"
+    if not os.path.exists(folder):
+        os.markedirs(folder)
+        
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    filepath = os.path. join(folder, f"intruder_{timestamp}.jpg")
+    cv2.imwrite(filepath, frame)
+    print(f"[ALERT] Intruder captured and saved to {filepath}")

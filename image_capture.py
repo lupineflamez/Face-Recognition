@@ -5,7 +5,7 @@ from picamera2 import Picamera2
 import time
 
 # Change this to the name of the person you're photographing
-PERSON_NAME = "jaryd"  
+PERSON_NAME = "amanda"  
 
 def create_folder(name):
     dataset_folder = "dataset"
@@ -20,14 +20,13 @@ def create_folder(name):
 def capture_photos(name):
     folder = create_folder(name)
     
-    # Initialize the camera
     picam2 = Picamera2()
-    picam2.configure(picam2.create_preview_configuration(main={"format": 'XRGB8888', "size": (640, 480)}))
+    config =picam2.create_preview_configuration(
+       main={"format": "RGB888", "size": (640,480)}
+       )
+    picam2.configure(config)
     picam2.start()
-
-    # Allow camera to warm up
-    time.sleep(2)
-
+    t       ime.sleep(2) #warm up
     photo_count = 0
     
     print(f"Taking photos for {name}. Press SPACE to capture, 'q' to quit.")
@@ -59,3 +58,4 @@ def capture_photos(name):
 
 if __name__ == "__main__":
     capture_photos(PERSON_NAME)
+    

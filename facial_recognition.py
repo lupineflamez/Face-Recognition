@@ -3,6 +3,7 @@ import cv2
 import numpy as np
 from picamera2 import Picamera2
 import time
+import alert
 import pickle
 
 # Load pre-trained face encodings
@@ -14,7 +15,9 @@ known_face_names = data["names"]
 
 # Initialize the camera
 picam2 = Picamera2()
-picam2.configure(picam2.create_preview_configuration(main={"format": 'XRGB8888', "size": (1920, 1080)}))
+config = picam2.create_preview_configuration(main={"format": 'XRGB8888', "size": (320, 240)})
+config["controls"] = {"FrameRate": 15.0}
+picam2.configure(config)
 picam2.start()
 
 # Initialize our variables
@@ -28,7 +31,7 @@ start_time = time.time()
 fps = 0
 
 def process_frame(frame):
-    global face_locations, face_encodings, face_names
+    global face_locations, face_encodings, face_names, frame_count
     
     # Resize the frame using cv_scaler to increase performance (less pixels processed, less time spent)
     resized_frame = cv2.resize(frame, (0, 0), fx=(1/cv_scaler), fy=(1/cv_scaler))
@@ -64,6 +67,11 @@ def draw_results(frame):
         bottom *= cv_scaler
         left *= cv_scaler
         
+        
+        #this calls the Alert python file
+        alert.handle_detection(frame, top, right, bottom, left, name)
+        
+        """
         # Draw a box around the face
         cv2.rectangle(frame, (left, top), (right, bottom), (244, 42, 3), 3)
         
@@ -71,7 +79,7 @@ def draw_results(frame):
         cv2.rectangle(frame, (left -3, top - 35), (right+3, top), (244, 42, 3), cv2.FILLED)
         font = cv2.FONT_HERSHEY_DUPLEX
         cv2.putText(frame, name, (left + 6, top - 6), font, 1.0, (255, 255, 255), 1)
-    
+"""    
     return frame
 
 def calculate_fps():
