@@ -25,10 +25,15 @@ pip install -r requirements.txt
 
 ## Project Structure
 - dataset/
+- intruder_alert/
+- intruder_photos/
+- face_app.py (Anti-Spoofing Liveness Pipeline)
+- facial_recognition.py
+- facial_recognition_discord.py
 - image_capture.py
-- train_model.py
-- recognize.py
+- model_training.py
 - requirements.txt
+
 
 ## Usage
 
@@ -40,3 +45,6 @@ Run train_model.py.
 
 ### Run Recognition
 Run recognize.py.
+
+### Run Anti-Spoofing Verification
+Run `uv run face_app.py` to initiate the native camera array with active eye-blink liveness validation.
