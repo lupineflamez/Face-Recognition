@@ -1,0 +1,128 @@
+Timestamp,Total Frames Checked,Total Run Duration (s),Calculated Average FPS,Intruders Logged,Spoof Attacks Stopped,Challenge Verification Status
+2026-11-10 18:12:46,3994,662.16,6.03,0,4,Failed - Timeout Bypass Attempt (amanda)
+2026-11-10 18:13:37.999,SYSTEM_STARTUP,SCANNING,0.00,System
+2026-11-10 18:13:47.708,FACE_DETECTED,SCANNING,4.90,Processing Match
+2026-11-10 18:13:47.714,CHALLENGE_ISSUED: TURN LEFT OR RIGHT,CHALLENGE,4.90,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:13:53.999,TIMEOUT_EXPIRATION,SPOOF_ALERT,5.86,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:13:57.628,SYSTEM_MANUAL_RESET,SCANNING,5.62,Operator
+2026-11-10 18:13:58.116,FACE_DETECTED,SCANNING,6.06,Processing Match
+2026-11-10 18:13:58.123,CHALLENGE_ISSUED: SMILE,CHALLENGE,6.06,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:13:58.741,CHALLENGE_PASSED,ACCESS_GRANTED,5.36,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:05.538,SYSTEM_MANUAL_RESET,SCANNING,5.32,Operator
+2026-11-10 18:14:05.747,FACE_DETECTED,SCANNING,4.80,Processing Match
+2026-11-10 18:14:05.752,CHALLENGE_ISSUED: TURN LEFT OR RIGHT,CHALLENGE,4.80,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:11.951,TIMEOUT_EXPIRATION,SPOOF_ALERT,10.01,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:14.614,SYSTEM_MANUAL_RESET,SCANNING,5.60,Operator
+2026-11-10 18:14:14.825,FACE_DETECTED,SCANNING,4.77,Processing Match
+2026-11-10 18:14:14.830,CHALLENGE_ISSUED: TURN LEFT OR RIGHT,CHALLENGE,4.77,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:15.877,CHALLENGE_PASSED,ACCESS_GRANTED,5.17,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:17.836,SYSTEM_MANUAL_RESET,SCANNING,4.95,Operator
+2026-11-10 18:14:17.962,FACE_DETECTED,SCANNING,8.00,Processing Match
+2026-11-10 18:14:17.970,CHALLENGE_ISSUED: SMILE,CHALLENGE,8.00,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:23.944,CHALLENGE_PASSED,ACCESS_GRANTED,6.01,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:25.875,SYSTEM_MANUAL_RESET,SCANNING,6.12,Operator
+2026-11-10 18:14:26.061,FACE_DETECTED,SCANNING,5.44,Processing Match
+2026-11-10 18:14:26.067,CHALLENGE_ISSUED: SMILE,CHALLENGE,5.44,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:26.278,CHALLENGE_PASSED,ACCESS_GRANTED,5.99,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:27.480,SYSTEM_MANUAL_RESET,SCANNING,5.40,Operator
+2026-11-10 18:14:31.238,FACE_DETECTED,SCANNING,5.32,Processing Match
+2026-11-10 18:14:31.243,CHALLENGE_ISSUED: SMILE,CHALLENGE,5.32,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:31.718,CHALLENGE_PASSED,ACCESS_GRANTED,5.01,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:32.848,SYSTEM_MANUAL_RESET,SCANNING,6.20,Operator
+2026-11-10 18:14:33.058,FACE_DETECTED,SCANNING,4.80,Processing Match
+2026-11-10 18:14:33.066,CHALLENGE_ISSUED: SMILE,CHALLENGE,4.80,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:33.300,CHALLENGE_PASSED,ACCESS_GRANTED,5.47,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:36.472,SYSTEM_MANUAL_RESET,SCANNING,4.80,Operator
+2026-11-10 18:14:36.705,FACE_DETECTED,SCANNING,4.38,Processing Match
+2026-11-10 18:14:36.719,CHALLENGE_ISSUED: SMILE,CHALLENGE,4.38,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:37.003,CHALLENGE_PASSED,ACCESS_GRANTED,4.47,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:37.828,SYSTEM_MANUAL_RESET,SCANNING,4.98,Operator
+2026-11-10 18:14:37.981,FACE_DETECTED,SCANNING,6.59,Processing Match
+2026-11-10 18:14:37.987,CHALLENGE_ISSUED: TURN LEFT OR RIGHT,CHALLENGE,6.59,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:44.145,TIMEOUT_EXPIRATION,SPOOF_ALERT,6.39,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:14:48.330,APPLICATION_SHUTDOWN,SPOOF_ALERT,7.51,Operator
+2026-11-10 18:21:26.268,SYSTEM_STARTUP,SCANNING,0.00,System
+2026-11-10 18:21:34.035,FACE_DETECTED,SCANNING,4.39,Processing Match
+2026-11-10 18:21:34.042,CHALLENGE_ISSUED: SMILE,CHALLENGE,4.39,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:21:40.110,TIMEOUT_EXPIRATION,SPOOF_ALERT,4.28,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:22:07.293,SYSTEM_MANUAL_RESET,SCANNING,5.78,Operator
+2026-11-10 18:22:19.153,FACE_DETECTED,SCANNING,4.82,Processing Match
+2026-11-10 18:22:19.160,CHALLENGE_ISSUED: SMILE,CHALLENGE,4.82,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:22:19.410,CHALLENGE_PASSED,ACCESS_GRANTED,4.96,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:22:21.618,SYSTEM_MANUAL_RESET,SCANNING,4.79,Operator
+2026-11-10 18:22:21.756,FACE_DETECTED,SCANNING,7.32,Processing Match
+2026-11-10 18:22:21.763,CHALLENGE_ISSUED: SMILE,CHALLENGE,7.32,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:22:22.535,CHALLENGE_PASSED,ACCESS_GRANTED,12.66,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:22:23.542,SYSTEM_MANUAL_RESET,SCANNING,4.47,Operator
+2026-11-10 18:22:24.206,FACE_DETECTED,SCANNING,5.14,Processing Match
+2026-11-10 18:22:24.212,CHALLENGE_ISSUED: TURN LEFT OR RIGHT,CHALLENGE,5.14,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:22:24.490,CHALLENGE_PASSED,ACCESS_GRANTED,7.09,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:22:25.743,SYSTEM_MANUAL_RESET,SCANNING,4.90,Operator
+2026-11-10 18:22:26.223,FACE_DETECTED,SCANNING,5.74,Processing Match
+2026-11-10 18:22:26.233,CHALLENGE_ISSUED: TURN LEFT OR RIGHT,CHALLENGE,5.74,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:22:26.557,CHALLENGE_PASSED,ACCESS_GRANTED,4.83,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:22:28.355,SYSTEM_MANUAL_RESET,SCANNING,4.79,Operator
+2026-11-10 18:22:28.568,FACE_DETECTED,SCANNING,4.71,Processing Match
+2026-11-10 18:22:28.575,CHALLENGE_ISSUED: TURN LEFT OR RIGHT,CHALLENGE,4.71,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:22:28.938,CHALLENGE_PASSED,ACCESS_GRANTED,4.83,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:22:29.933,SYSTEM_MANUAL_RESET,SCANNING,4.37,Operator
+2026-11-10 18:22:30.026,FACE_DETECTED,SCANNING,10.84,Processing Match
+2026-11-10 18:22:30.031,CHALLENGE_ISSUED: TURN LEFT OR RIGHT,CHALLENGE,10.84,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:22:30.417,CHALLENGE_PASSED,ACCESS_GRANTED,5.15,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:22:33.458,SYSTEM_MANUAL_RESET,SCANNING,4.65,Operator
+2026-11-10 18:22:33.656,FACE_DETECTED,SCANNING,5.08,Processing Match
+2026-11-10 18:22:33.659,CHALLENGE_ISSUED: TURN LEFT OR RIGHT,CHALLENGE,5.08,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:22:33.986,CHALLENGE_PASSED,ACCESS_GRANTED,6.21,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:23:37.649,SYSTEM_MANUAL_RESET,SCANNING,9.85,Operator
+2026-11-10 18:23:38.695,FACE_DETECTED,SCANNING,5.32,Processing Match
+2026-11-10 18:23:38.702,CHALLENGE_ISSUED: SMILE,CHALLENGE,5.32,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:23:42.292,CHALLENGE_PASSED,ACCESS_GRANTED,4.67,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:23:45.148,SYSTEM_MANUAL_RESET,SCANNING,5.32,Operator
+2026-11-10 18:23:45.296,FACE_DETECTED,SCANNING,6.81,Processing Match
+2026-11-10 18:23:45.313,CHALLENGE_ISSUED: TURN LEFT OR RIGHT,CHALLENGE,6.81,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:23:45.641,CHALLENGE_PASSED,ACCESS_GRANTED,4.98,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:23:47.755,SYSTEM_MANUAL_RESET,SCANNING,5.15,Operator
+2026-11-10 18:23:47.936,FACE_DETECTED,SCANNING,5.64,Processing Match
+2026-11-10 18:23:47.943,CHALLENGE_ISSUED: TURN LEFT OR RIGHT,CHALLENGE,5.64,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:23:48.208,CHALLENGE_PASSED,ACCESS_GRANTED,7.75,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:23:48.955,SYSTEM_MANUAL_RESET,SCANNING,12.46,Operator
+2026-11-10 18:23:49.034,FACE_DETECTED,SCANNING,12.94,Processing Match
+2026-11-10 18:23:49.040,CHALLENGE_ISSUED: SMILE,CHALLENGE,12.94,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:23:49.189,CHALLENGE_PASSED,ACCESS_GRANTED,10.80,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:23:49.963,SYSTEM_MANUAL_RESET,SCANNING,8.75,Operator
+2026-11-10 18:23:50.138,FACE_DETECTED,SCANNING,5.74,Processing Match
+2026-11-10 18:23:50.145,CHALLENGE_ISSUED: SMILE,CHALLENGE,5.74,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:23:50.431,CHALLENGE_PASSED,ACCESS_GRANTED,4.82,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:23:52.249,SYSTEM_MANUAL_RESET,SCANNING,20.72,Operator
+2026-11-10 18:23:53.721,FACE_DETECTED,SCANNING,5.85,Processing Match
+2026-11-10 18:23:53.724,CHALLENGE_ISSUED: TURN LEFT OR RIGHT,CHALLENGE,5.85,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:23:55.187,CHALLENGE_PASSED,ACCESS_GRANTED,4.68,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:23:58.139,SYSTEM_MANUAL_RESET,SCANNING,4.65,Operator
+2026-11-10 18:23:58.624,FACE_DETECTED,SCANNING,4.15,Processing Match
+2026-11-10 18:23:58.630,CHALLENGE_ISSUED: SMILE,CHALLENGE,4.15,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:23:59.442,CHALLENGE_PASSED,ACCESS_GRANTED,5.82,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:24:03.049,SYSTEM_MANUAL_RESET,SCANNING,5.72,Operator
+2026-11-10 18:24:03.826,FACE_DETECTED,SCANNING,6.25,Processing Match
+2026-11-10 18:24:03.845,CHALLENGE_ISSUED: TURN LEFT OR RIGHT,CHALLENGE,6.25,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:24:08.447,CHALLENGE_PASSED,ACCESS_GRANTED,4.86,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:24:10.590,SYSTEM_MANUAL_RESET,SCANNING,5.73,Operator
+2026-11-10 18:24:10.790,FACE_DETECTED,SCANNING,5.03,Processing Match
+2026-11-10 18:24:10.795,CHALLENGE_ISSUED: SMILE,CHALLENGE,5.03,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:24:11.444,CHALLENGE_PASSED,ACCESS_GRANTED,5.48,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:24:12.336,SYSTEM_MANUAL_RESET,SCANNING,6.38,Operator
+2026-11-10 18:24:12.530,FACE_DETECTED,SCANNING,5.29,Processing Match
+2026-11-10 18:24:12.538,CHALLENGE_ISSUED: SMILE,CHALLENGE,5.29,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:24:12.783,CHALLENGE_PASSED,ACCESS_GRANTED,5.24,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:24:15.388,SYSTEM_MANUAL_RESET,SCANNING,5.01,Operator
+2026-11-10 18:24:15.591,FACE_DETECTED,SCANNING,5.00,Processing Match
+2026-11-10 18:24:15.597,CHALLENGE_ISSUED: SMILE,CHALLENGE,5.00,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:24:15.807,CHALLENGE_PASSED,ACCESS_GRANTED,6.62,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:24:20.838,SYSTEM_MANUAL_RESET,SCANNING,7.04,Operator
+2026-11-10 18:24:21.026,FACE_DETECTED,SCANNING,5.37,Processing Match
+2026-11-10 18:24:21.032,CHALLENGE_ISSUED: SMILE,CHALLENGE,5.37,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:24:21.273,CHALLENGE_PASSED,ACCESS_GRANTED,5.28,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:24:23.455,SYSTEM_MANUAL_RESET,SCANNING,11.96,Operator
+2026-11-10 18:24:25.358,FACE_DETECTED,SCANNING,10.41,Processing Match
+2026-11-10 18:24:25.364,CHALLENGE_ISSUED: TURN LEFT OR RIGHT,CHALLENGE,10.41,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:24:31.377,TIMEOUT_EXPIRATION,SPOOF_ALERT,6.49,"['amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda', 'amanda']"
+2026-11-10 18:24:34.468,APPLICATION_SHUTDOWN,SPOOF_ALERT,4.57,Operator
